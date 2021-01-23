@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace OOP3
 {
-    class Program
+    class Program                                               //SOYUTLAMA İNTERFACE 
     {
-        static void Main(string[] args)
+        static void Main(string[] args)                     //BANA BİR LİSTE VER LİSTENİN TÜRÜ IKREDİMANAGER OLSUN
         {
             IKrediManager ihtiyacKrediManager = new IhtiyacKrediManager();
             IKrediManager tasitKrediManager = new TasitKrediManager();
